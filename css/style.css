@@ -6,36 +6,42 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
+	background-color: #FFF;
 }
-a{
+a {
 	text-decoration: none;
 	color: currentColor;
 }
-ul{
+ul {
 	list-style: none;
 }
-.top-header{
-    display: flex;
+
+/* -----HEADER----- */
+
+.top-header {
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	/* height: 80px; */
 	padding: 20px 120px;
 }
-.top-nav ul{
+/* --- */
+.top-nav ul {
 	display: flex;
 	gap: 40px;
 	font-size: 18px;
 }
-.top-nav li a{
+.top-nav li a {
 	transition: 0.3s;
 	padding-bottom: 5px;
 }
-.top-nav li a:hover{
+.top-nav li a:hover {
 	border-bottom: 3px solid #10dfc2;
-	color: #19DBD1;
+	color: #19dbd1;
 }
-.top-header button{
+/* --- */
+.top-header button {
 	background-color: #10dfc2;
 	border-radius: 15px;
 	height: 42px;
@@ -44,3 +50,110 @@ ul{
 	color: #fbfbfb;
 	border: 0;
 }
+
+/* -----MAIN----- */
+main{
+	color: #032624;
+}
+.top-main {
+	background: url(/img/Background@2x.png) no-repeat;
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+}
+.top-main-card1 {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.top-main-card1 img{
+	width: 66px;
+}
+.top-main-card1 h1 {
+	font-size: 40px;
+}
+.top-main-card1 p {
+	font-size: 18px;
+	line-height: 1.6em;
+}
+.top-main-card2 {
+	display: flex;
+	flex-direction: column;
+	gap: 69.66px;
+	justify-content: center;
+	align-items: center;
+}
+.top-main-card2-img1{
+ width: 138.5px;
+}
+/* --- */
+.about{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.about-card1 h1{
+	font-size: 32px;
+	margin-bottom: 24px;
+}
+.about-card1 p{
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.about-card1 span{
+	font-size: 16px;
+	color: #0eafac;
+	font-weight: 500;
+}
+/* --- */
+.how-work{
+	background-color: #F6F6F6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.how-work-top h1{
+	padding-top: 50px;
+	color: #0EAFAC;
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 16px;
+}
+.how-work-top p{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.how-work-grid {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 29px;
+}
+.grid{
+	width: 262px;
+	height: 250px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #00000029;
+	padding-left: 20px;
+}
+.grid img{
+	padding: 20px 0 24px;
+}
+.grid h2{
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.grid p{
+	font-size: 16px;
+}
+
+/* -----FOOTER----- */
