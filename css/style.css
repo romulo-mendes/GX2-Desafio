@@ -160,7 +160,6 @@ main{
 	flex-direction: column;
 }
 .requirements{
-	padding-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -196,3 +195,49 @@ main{
 
 
 /* -----FOOTER----- */
+
+.top-footer{
+	padding: 50px 250px;
+	background-color: #19dbd1;
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+}
+.top-footer-text{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.top-footer-text h1{
+	font-size: 32px;
+}
+.top-footer-text p{
+	font-size: 16px;
+}
+
+.top-footer-form form{
+	display: flex;
+	flex-direction: column;
+}
+.top-footer-form form label{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.input-email{
+	border: 0;
+	border-radius: 10px;
+	width: 300px;
+	height: 35px;
+	margin-bottom: 24px;
+}
+.button-form{
+	border: 0;
+	border-radius: 10px;
+	width: 100px;
+	height: 35px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: #FFB900;
+}
+/* --- */
