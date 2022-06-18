@@ -241,3 +241,99 @@ main{
 	background-color: #FFB900;
 }
 /* --- */
+.bottom-footer{
+	background-color: #04254c;
+	display: flex;
+	gap: 70px;
+	padding: 50px 120px 89px;
+	color: #FFF;
+	justify-content: space-between;
+}
+.bottom-footer-about{
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	justify-content: left;
+}
+/* .bottom-footer-about img{
+	width: 135px;
+	height: 40px;
+} */
+.bottom-footer-about-text{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.bottom-footer-about-text h3{
+	font-size: 16px;
+	font-weight: 500;
+}
+.bottom-footer-about-text p{
+	font-size: 16px;
+}
+.bottom-footer-about-button{
+	background-color: #FFB900;
+	border: 0;
+	border-radius: 10px;
+	width: 181px;
+	height: 35px;
+	display: flex;
+	color: #FFF;
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+}
+.bottom-footer-about-button img{
+	width: 18px;
+	height: 18px;
+}
+/* --- */
+.bottom-footer-service{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.bottom-footer-service h2{
+	font-size: 24px;
+	font-weight: 500;
+}
+.bottom-footer-service ul{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+.bottom-footer-service li{
+	font-size: 16px;
+
+}
+/* --- */
+.bottom-footer-address{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.bottom-footer-address-img{
+	background-color: #FFF;
+	min-width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-footer-address-card{
+	display: flex;
+	gap: 57px;
+	align-items: center;
+}
+.bottom-footer-address-card address{
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	font-size: 16px;
+}
+.bottom-footer-address-card h2{
+	font-size: 16px;
+	font-weight: 500;
+}
